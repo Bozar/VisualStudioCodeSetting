@@ -15,4 +15,14 @@
         "command": "editor.action.smartSelect.shrink",
         "when": "editorTextFocus"
     },
+    {
+        "key": "alt+enter",
+        "command": "editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+enter",
+        "command": "problems.action.showQuickFixes",
+        "when": "problemFocus"
+    },
 ]
