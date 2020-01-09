@@ -1,0 +1,48 @@
+{
+    /**
+     * List of extensions.
+     *      + albert.tabout
+     *      + ms-vscode.vs-keybindings
+     */
+    // Font size.
+    "editor.fontSize": 16,
+    "markdown.preview.fontSize": 16,
+    "debug.console.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "window.zoomLevel": 2.5,
+    // UI.
+    "editor.minimap.enabled": false,
+    "window.restoreFullscreen": true,
+    "window.menuBarVisibility": "hidden",
+    "workbench.sideBar.location": "right",
+    "editor.showFoldingControls": "always",
+    // Icon.
+    "workbench.iconTheme": null,
+    "workbench.editor.showIcons": false,
+    "breadcrumbs.icons": false,
+    // Color theme.
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.tokenColorCustomizations": {
+        "[Visual Studio Dark]": {
+            "functions": "#999999",
+            "variables": "#999999",
+            "types": "#b5ce9f",
+        }
+    },
+    "workbench.colorCustomizations": {
+        "[Visual Studio Dark]": {
+            "statusBar.background": "#3C3C3C",
+        }
+    },
+    // Navigation.
+    "breadcrumbs.filePath": "last",
+    "breadcrumbs.symbolSortOrder": "name",
+    // Text editing.
+    "editor.rulers": [
+        80
+    ],
+    "editor.formatOnSave": true,
+    "editor.suggestSelection": "first",
+    // Extension.
+    "extensions.ignoreRecommendations": true,
+}
