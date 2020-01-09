@@ -42,7 +42,9 @@
         80
     ],
     "editor.formatOnSave": true,
-    "editor.suggestSelection": "first",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+    "terminal.integrated.copyOnSelection": true,
     // Extension.
     "extensions.ignoreRecommendations": true,
 }
