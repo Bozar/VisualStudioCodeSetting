@@ -25,15 +25,13 @@
     "workbench.colorTheme": "Visual Studio Dark",
     "editor.tokenColorCustomizations": {
         "[Visual Studio Dark]": {
-            "functions": "#999999",
-            "variables": "#999999",
-            "types": "#b5ce9f",
+            // "strings": "#b5ce9f",
         }
     },
     "workbench.colorCustomizations": {
         "[Visual Studio Dark]": {
-            "statusBar.background": "#3C3C3C",
             "editor.foreground": "#999999",
+            "statusBar.background": "#3C3C3C",
             // "editor.lineHighlightBackground": "#3C3C3C",
         }
     },
