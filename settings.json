@@ -33,6 +33,8 @@
     "workbench.colorCustomizations": {
         "[Visual Studio Dark]": {
             "statusBar.background": "#3C3C3C",
+            "editor.foreground": "#999999",
+            // "editor.lineHighlightBackground": "#3C3C3C",
         }
     },
     // Navigation.
@@ -44,6 +46,10 @@
     ],
     "editor.formatOnSave": true,
     "terminal.integrated.copyOnSelection": true,
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.occurrencesHighlight": false,
+    },
     // Extension.
     "extensions.ignoreRecommendations": true,
 }
