@@ -80,4 +80,9 @@
         "key": "ctrl+k w",
         "command": "-workbench.action.closeEditorsInGroup"
     },
+    {
+        "key": "ctrl+m j",
+        "command": "editor.action.joinLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
 ]

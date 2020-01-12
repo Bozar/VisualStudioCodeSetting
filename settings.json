@@ -1,9 +1,13 @@
 {
     /**
      * List of extensions.
-     *      + albert.tabout
-     *      + ms-python.python
-     *      + ms-vscode.vs-keybindings
+     *
+     * + albert.tabout
+     * + davidanson.vscode-markdownlint
+     * + ms-python.python
+     * + ms-vscode.vs-keybindings
+     * + stkb.rewrap
+     *
      */
     // Font size.
     "editor.fontSize": 16,
@@ -42,8 +46,13 @@
     "editor.rulers": [
         80
     ],
-    "editor.formatOnSave": true,
+    "editor.scrollBeyondLastLine": false,
     "terminal.integrated.copyOnSelection": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        // "source.fixAll.markdownlint": true,
+        "source.fixAll": true,
+    },
     "[markdown]": {
         "editor.wordWrap": "wordWrapColumn",
         "editor.occurrencesHighlight": false,
