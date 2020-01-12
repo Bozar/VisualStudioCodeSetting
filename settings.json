@@ -47,6 +47,8 @@
         80
     ],
     "editor.scrollBeyondLastLine": false,
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "solid",
     "terminal.integrated.copyOnSelection": true,
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
