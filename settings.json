@@ -20,6 +20,7 @@
     "window.restoreFullscreen": true,
     "window.menuBarVisibility": "hidden",
     "workbench.sideBar.location": "right",
+    "workbench.editor.tabCloseButton": "off",
     "editor.showFoldingControls": "always",
     // Icon.
     "workbench.iconTheme": null,
