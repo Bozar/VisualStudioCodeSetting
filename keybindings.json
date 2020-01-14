@@ -90,4 +90,14 @@
         "command": "workbench.action.closeOtherEditors",
         "when": "editorTextFocus"
     },
+    {
+        "key": "ctrl+m w",
+        "command": "editor.action.trimTrailingWhitespace",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+x",
+        "command": "-editor.action.trimTrailingWhitespace",
+        "when": "editorTextFocus && !editorReadonly"
+    },
 ]

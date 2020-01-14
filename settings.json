@@ -3,7 +3,6 @@
      * List of extensions.
      *
      * + albert.tabout
-     * + davidanson.vscode-markdownlint
      * + ms-python.python
      * + ms-vscode.vs-keybindings
      * + stkb.rewrap
@@ -54,7 +53,6 @@
     "terminal.integrated.copyOnSelection": true,
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-        // "source.fixAll.markdownlint": true,
         "source.fixAll": true,
     },
     "[markdown]": {
