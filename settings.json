@@ -43,6 +43,7 @@
     // Navigation.
     "breadcrumbs.filePath": "last",
     "breadcrumbs.symbolSortOrder": "name",
+    "workbench.editor.focusRecentEditorAfterClose": false,
     // Text editing.
     "editor.rulers": [
         80

@@ -85,4 +85,9 @@
         "command": "editor.action.joinLines",
         "when": "editorTextFocus && !editorReadonly"
     },
+    {
+        "key": "ctrl+m o",
+        "command": "workbench.action.closeOtherEditors",
+        "when": "editorTextFocus"
+    },
 ]
