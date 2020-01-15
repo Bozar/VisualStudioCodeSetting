@@ -87,8 +87,7 @@
     },
     {
         "key": "ctrl+m o",
-        "command": "workbench.action.closeOtherEditors",
-        "when": "editorTextFocus"
+        "command": "workbench.action.closeOtherEditors"
     },
     {
         "key": "ctrl+m w",
@@ -99,5 +98,33 @@
         "key": "ctrl+k ctrl+x",
         "command": "-editor.action.trimTrailingWhitespace",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k u",
+        "command": "-workbench.action.closeUnmodifiedEditors"
+    },
+    {
+        "key": "ctrl+k shift+u",
+        "command": "workbench.action.openGlobalSettings"
+    },
+    {
+        "key": "ctrl+k u",
+        "command": "workbench.action.openSettingsJson"
+    },
+    {
+        "key": "ctrl+k shift+s",
+        "command": "workbench.action.openGlobalKeybindingsFile"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "-workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+k ctrl+s",
+        "command": "-workbench.action.openGlobalKeybindings"
     },
 ]
