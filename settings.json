@@ -9,23 +9,6 @@
      * + throvn.nand2tetris
      *
      */
-    // Font size.
-    "editor.fontSize": 16,
-    "markdown.preview.fontSize": 16,
-    "debug.console.fontSize": 16,
-    "terminal.integrated.fontSize": 16,
-    "window.zoomLevel": 2.5,
-    // UI.
-    "editor.minimap.enabled": false,
-    "window.restoreFullscreen": true,
-    "window.menuBarVisibility": "hidden",
-    "workbench.sideBar.location": "right",
-    "workbench.editor.tabCloseButton": "off",
-    "editor.showFoldingControls": "always",
-    // Icon.
-    "workbench.iconTheme": null,
-    "workbench.editor.showIcons": false,
-    "breadcrumbs.icons": false,
     // Color theme.
     "workbench.colorTheme": "Visual Studio Dark",
     "editor.tokenColorCustomizations": {
@@ -40,26 +23,48 @@
             // "editor.lineHighlightBackground": "#3C3C3C",
         }
     },
-    // Navigation.
-    "breadcrumbs.filePath": "last",
-    "breadcrumbs.symbolSortOrder": "name",
-    "workbench.editor.focusRecentEditorAfterClose": false,
-    // Text editing.
+    // Cursor.
+    "editor.cursorStyle": "block",
+    "editor.cursorBlinking": "solid",
+    // Editor core section.
+    "editor.minimap.enabled": false,
+    "editor.showFoldingControls": "always",
     "editor.rulers": [
         80
     ],
     "editor.scrollBeyondLastLine": false,
-    "editor.cursorStyle": "block",
-    "editor.cursorBlinking": "solid",
-    "terminal.integrated.copyOnSelection": true,
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-        "source.fixAll": true,
-    },
+    // Editor header.
+    "breadcrumbs.filePath": "last",
+    "breadcrumbs.symbolSortOrder": "name",
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "workbench.editor.openPositioning": "last",
+    // Extension.
+    "extensions.ignoreRecommendations": true,
+    // Font size.
+    "editor.fontSize": 16,
+    "markdown.preview.fontSize": 16,
+    "debug.console.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "window.zoomLevel": 2.5,
+    // Icon.
+    "workbench.iconTheme": null,
+    "workbench.editor.showIcons": false,
+    "breadcrumbs.icons": false,
+    // Language-specific setting.
     "[markdown]": {
         "editor.wordWrap": "wordWrapColumn",
         "editor.occurrencesHighlight": false,
     },
-    // Extension.
-    "extensions.ignoreRecommendations": true,
+    // Saving.
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+    },
+    // Terminal.
+    "terminal.integrated.copyOnSelection": true,
+    // Window.
+    "window.restoreFullscreen": true,
+    "window.menuBarVisibility": "hidden",
+    "workbench.sideBar.location": "right",
 }
