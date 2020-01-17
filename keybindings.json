@@ -90,16 +90,6 @@
         "command": "workbench.action.closeOtherEditors"
     },
     {
-        "key": "ctrl+m w",
-        "command": "editor.action.trimTrailingWhitespace",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+k ctrl+x",
-        "command": "-editor.action.trimTrailingWhitespace",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
         "key": "ctrl+k u",
         "command": "-workbench.action.closeUnmodifiedEditors"
     },
@@ -126,5 +116,5 @@
     {
         "key": "ctrl+k ctrl+s",
         "command": "-workbench.action.openGlobalKeybindings"
-    },
+    }
 ]

@@ -32,7 +32,9 @@
     "editor.rulers": [
         80
     ],
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?，。《》？、；‘’：“”！…（）—【】",
     "editor.scrollBeyondLastLine": false,
+    "files.trimTrailingWhitespace": true,
     // Editor header.
     "breadcrumbs.filePath": "last",
     "breadcrumbs.symbolSortOrder": "name",
