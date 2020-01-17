@@ -43,7 +43,8 @@
     "workbench.editor.openPositioning": "last",
     // Extension.
     "extensions.ignoreRecommendations": true,
-    // Font size.
+    // Font.
+    "editor.fontFamily": "Consolas, 'Microsoft YaHei', monospace",
     "editor.fontSize": 16,
     "markdown.preview.fontSize": 16,
     "debug.console.fontSize": 16,
