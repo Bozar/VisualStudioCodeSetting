@@ -54,11 +54,13 @@
     "workbench.iconTheme": null,
     "workbench.editor.showIcons": false,
     "breadcrumbs.icons": false,
-    // Language-specific setting.
+    // Language: Markdown.
     "[markdown]": {
         "editor.wordWrap": "wordWrapColumn",
         "editor.occurrencesHighlight": false,
     },
+    // Language: Python.
+    "python.jediEnabled": false,
     // Saving.
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
