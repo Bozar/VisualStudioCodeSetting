@@ -116,5 +116,24 @@
     {
         "key": "ctrl+k ctrl+s",
         "command": "-workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+m k",
+        "command": "bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "-bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "workbench.view.extension.bookmarks"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
     }
 ]
