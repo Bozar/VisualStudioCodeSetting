@@ -34,7 +34,7 @@
         80
     ],
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?，。《》？、；‘’：“”！…（）—【】",
-    "editor.scrollBeyondLastLine": false,
+    // "editor.scrollBeyondLastLine": false,
     "files.trimTrailingWhitespace": true,
     // Editor header.
     "breadcrumbs.filePath": "last",
