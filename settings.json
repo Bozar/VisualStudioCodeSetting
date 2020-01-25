@@ -59,6 +59,7 @@
     "[markdown]": {
         "editor.wordWrap": "wordWrapColumn",
         "editor.occurrencesHighlight": false,
+        "files.insertFinalNewline": true,
     },
     // Language: Python.
     "python.jediEnabled": false,
