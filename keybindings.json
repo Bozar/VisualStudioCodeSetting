@@ -160,5 +160,21 @@
         "key": "ctrl+alt+j",
         "command": "-bookmarks.jumpToPrevious",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+\\",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "workbench.action.splitEditorOrthogonal"
+    },
+    {
+        "key": "ctrl+k ctrl+\\",
+        "command": "-workbench.action.splitEditorOrthogonal"
     }
 ]
