@@ -27,16 +27,17 @@
     // Cursor.
     "editor.cursorStyle": "block",
     "editor.cursorBlinking": "solid",
-    // Editor core section.
+    // Editor: core section.
     "editor.minimap.enabled": false,
     "editor.showFoldingControls": "always",
+    "editor.wrappingStrategy": "advanced",
     "editor.rulers": [
         80
     ],
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?，。《》？、；‘’：“”！…（）—【】",
     // "editor.scrollBeyondLastLine": false,
     "files.trimTrailingWhitespace": true,
-    // Editor header.
+    // Editor: header.
     "breadcrumbs.filePath": "last",
     "breadcrumbs.symbolSortOrder": "name",
     "workbench.editor.tabCloseButton": "off",
