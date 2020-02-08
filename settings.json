@@ -76,4 +76,5 @@
     "window.restoreFullscreen": true,
     "window.menuBarVisibility": "hidden",
     "workbench.sideBar.location": "right",
+    "window.openWithoutArgumentsInNewWindow": "off",
 }
