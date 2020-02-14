@@ -64,13 +64,13 @@
         "files.insertFinalNewline": true,
     },
     // Language: Python.
-    // https://github.com/MicrosoftDocs/intellicode/issues/69
-    "python.jediEnabled": false,
     /**
+     * https://github.com/MicrosoftDocs/intellicode/issues/69
      * https://stackoverflow.com/questions/53939751/pylint-unresolved-import-error-in-visual-studio-code
      * Add to workspace setting:
      * "python.autoComplete.extraPaths": []
      */
+    "python.jediEnabled": false,
     // Saving.
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
