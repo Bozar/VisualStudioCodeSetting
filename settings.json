@@ -65,6 +65,11 @@
     },
     // Language: Python.
     "python.jediEnabled": false,
+    /**
+     * https://stackoverflow.com/questions/53939751/pylint-unresolved-import-error-in-visual-studio-code
+     * Add to workspace setting:
+     * "python.autoComplete.extraPaths": []
+     */
     // Saving.
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
