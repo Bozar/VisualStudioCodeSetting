@@ -64,6 +64,7 @@
         "files.insertFinalNewline": true,
     },
     // Language: Python.
+    // https://github.com/MicrosoftDocs/intellicode/issues/69
     "python.jediEnabled": false,
     /**
      * https://stackoverflow.com/questions/53939751/pylint-unresolved-import-error-in-visual-studio-code
