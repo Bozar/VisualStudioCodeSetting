@@ -188,5 +188,9 @@
     {
         "key": "ctrl+oem_3",
         "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.action.files.openFileFolder"
     }
 ]
