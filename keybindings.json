@@ -176,5 +176,17 @@
     {
         "key": "ctrl+k ctrl+\\",
         "command": "-workbench.action.splitEditorOrthogonal"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+oem_3",
+        "command": "-workbench.action.terminal.toggleTerminal"
     }
 ]

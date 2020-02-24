@@ -70,7 +70,7 @@
      * Add to workspace setting:
      * "python.autoComplete.extraPaths": []
      */
-    "python.jediEnabled": false,
+    // "python.jediEnabled": false,
     "python.analysis.logLevel": "Warning",
     // Saving.
     "editor.formatOnSave": true,
