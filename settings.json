@@ -61,6 +61,8 @@
     "debug.console.fontSize": 16,
     "terminal.integrated.fontSize": 16,
     "window.zoomLevel": 2.5,
+    // Git.
+    "git.enableSmartCommit": true,
     // Icon.
     "workbench.iconTheme": null,
     "workbench.editor.showIcons": false,
