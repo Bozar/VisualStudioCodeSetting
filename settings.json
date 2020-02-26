@@ -63,7 +63,12 @@
     "terminal.integrated.fontSize": 16,
     "window.zoomLevel": 2.5,
     // Git.
+    "git.autofetch": true,
+    "git.autofetchPeriod": 300,
+    "git.autoStash": true,
+    "git.branchWhitespaceChar": "_",
     "git.enableSmartCommit": true,
+    "git.fetchOnPull": true,
     // Icon.
     "workbench.iconTheme": null,
     "workbench.editor.showIcons": false,
