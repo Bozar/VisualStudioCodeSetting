@@ -1,4 +1,7 @@
 {
+    // =========================================================================
+    // List Of Extensions
+    // =========================================================================
     /**
      * Local extensions.
      *
@@ -8,6 +11,7 @@
      * ms-vscode-remote.remote-ssh
      * ms-vscode-remote.remote-ssh-edit
      * ms-vscode.vs-keybindings
+     * streetsidesoftware.code-spell-checker
      * throvn.nand2tetris
      * tomsaunders.vscode-workspace-explorer
      *
@@ -16,6 +20,47 @@
      * ms-python.python
      *
      */
+    // =========================================================================
+    // Extension Settings
+    // =========================================================================
+    // streetsidesoftware.code-spell-checker.
+    "cSpell.allowCompoundWords": true,
+    "cSpell.enableFiletypes": [
+        "!c",
+        "!cpp",
+        "!csharp",
+        "!go",
+        "!haskell",
+        "!java",
+        "!javascript",
+        "!php",
+        "!python",
+        "!rust",
+        "!typescript",
+    ],
+    // tomsaunders.vscode-workspace-explorer.
+    "workspaceExplorer.workspaceStorageDirectory": "vscWorkspace",
+    // =========================================================================
+    // Language Settings
+    // =========================================================================
+    // Markdown.
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.occurrencesHighlight": false,
+        "files.insertFinalNewline": true,
+    },
+    // Python.
+    /**
+     * https://github.com/MicrosoftDocs/intellicode/issues/69
+     * https://stackoverflow.com/questions/53939751/pylint-unresolved-import-error-in-visual-studio-code
+     * Add to workspace setting:
+     * "python.autoComplete.extraPaths": []
+     */
+    // "python.jediEnabled": false,
+    // "python.analysis.logLevel": "Warning",
+    // =========================================================================
+    // Editor Settings
+    // =========================================================================
     // Color theme.
     "workbench.colorTheme": "Visual Studio Dark",
     "editor.tokenColorCustomizations": {
@@ -52,8 +97,6 @@
     "workbench.editor.openPositioning": "last",
     // Extension.
     "extensions.ignoreRecommendations": true,
-    // Exntension: tomsaunders.vscode-workspace-explorer.
-    "workspaceExplorer.workspaceStorageDirectory": "vscWorkspace",
     // Font.
     "editor.fontFamily": "'Fira Code', Consolas, 'Microsoft YaHei', monospace",
     "editor.fontLigatures": true,
@@ -73,21 +116,6 @@
     "workbench.iconTheme": null,
     "workbench.editor.showIcons": false,
     "breadcrumbs.icons": false,
-    // Language: Markdown.
-    "[markdown]": {
-        "editor.wordWrap": "wordWrapColumn",
-        "editor.occurrencesHighlight": false,
-        "files.insertFinalNewline": true,
-    },
-    // Language: Python.
-    /**
-     * https://github.com/MicrosoftDocs/intellicode/issues/69
-     * https://stackoverflow.com/questions/53939751/pylint-unresolved-import-error-in-visual-studio-code
-     * Add to workspace setting:
-     * "python.autoComplete.extraPaths": []
-     */
-    // "python.jediEnabled": false,
-    // "python.analysis.logLevel": "Warning",
     // Saving.
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
