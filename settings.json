@@ -7,6 +7,7 @@
      *
      * albert.tabout
      * alefragnani.bookmarks
+     * coenraads.bracket-pair-colorizer-2
      * donjayamanne.githistory
      * ms-vscode-remote.remote-ssh
      * ms-vscode-remote.remote-ssh-edit
@@ -23,6 +24,12 @@
     // =========================================================================
     // Extension Settings
     // =========================================================================
+    //coenraads.bracket-pair-colorizer-2
+    "bracket-pair-colorizer-2.colors": [
+        "LightGrey",
+        "YellowGreen",
+        "GoldenRod",
+    ],
     // streetsidesoftware.code-spell-checker.
     "cSpell.allowCompoundWords": true,
     "cSpell.logLevel": "Warning",
