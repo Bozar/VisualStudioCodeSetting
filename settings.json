@@ -25,6 +25,8 @@
     // =========================================================================
     // streetsidesoftware.code-spell-checker.
     "cSpell.allowCompoundWords": true,
+    "cSpell.logLevel": "Warning",
+    "cSpell.showStatus": false,
     "cSpell.enableFiletypes": [
         "!c",
         "!cpp",
