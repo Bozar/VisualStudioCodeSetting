@@ -27,6 +27,7 @@
     "cSpell.allowCompoundWords": true,
     "cSpell.logLevel": "Warning",
     "cSpell.showStatus": false,
+    "cSpell.spellCheckDelayMs": 1000,
     "cSpell.enableFiletypes": [
         "!c",
         "!cpp",
