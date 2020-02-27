@@ -80,6 +80,7 @@
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?，。《》？、；‘’：“”！…（）—【】",
     // "editor.scrollBeyondLastLine": false,
     "files.trimTrailingWhitespace": true,
+    "editor.copyWithSyntaxHighlighting": false,
     // Editor: header.
     "breadcrumbs.filePath": "last",
     "breadcrumbs.symbolSortOrder": "name",
