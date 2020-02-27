@@ -120,4 +120,7 @@
     "window.menuBarVisibility": "hidden",
     "workbench.sideBar.location": "right",
     "window.openWithoutArgumentsInNewWindow": "off",
+    "window.openFoldersInNewWindow": "off",
+    "window.restoreWindows": "one",
+    "window.newWindowDimensions": "inherit",
 }
