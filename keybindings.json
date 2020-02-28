@@ -74,10 +74,6 @@
     },
     {
         "key": "ctrl+k w",
-        "command": "workbench.action.openWorkspace"
-    },
-    {
-        "key": "ctrl+k w",
         "command": "-workbench.action.closeEditorsInGroup"
     },
     {
@@ -102,7 +98,7 @@
         "command": "workbench.action.openSettingsJson"
     },
     {
-        "key": "ctrl+k shift+s",
+        "key": "ctrl+k shift+k",
         "command": "workbench.action.openGlobalKeybindingsFile"
     },
     {
@@ -110,7 +106,7 @@
         "command": "-workbench.action.files.saveAll"
     },
     {
-        "key": "ctrl+k s",
+        "key": "ctrl+k k",
         "command": "workbench.action.openGlobalKeybindings"
     },
     {
@@ -234,5 +230,15 @@
     {
         "key": "ctrl+numpad0",
         "command": "-workbench.action.zoomReset"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "-editor.action.defineKeybinding",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'jsonc'"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "-keybindings.editor.defineKeybinding",
+        "when": "inKeybindings && keybindingFocus"
     }
 ]
