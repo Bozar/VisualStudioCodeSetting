@@ -87,6 +87,8 @@
     "workbench.editor.tabCloseButton": "off",
     "workbench.editor.focusRecentEditorAfterClose": false,
     "workbench.editor.openPositioning": "last",
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 6,
     // Extension.
     "extensions.ignoreRecommendations": true,
     // Font.
