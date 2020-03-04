@@ -23,7 +23,9 @@
     // =========================================================================
     // Extension Settings
     // =========================================================================
-    //coenraads.bracket-pair-colorizer-2
+    // alefragnani.bookmarks
+    "bookmarks.sideBar.expanded": true,
+    // coenraads.bracket-pair-colorizer-2
     "bracket-pair-colorizer-2.colors": [
         "LightGrey",
         "YellowGreen",
