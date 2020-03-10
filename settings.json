@@ -13,8 +13,8 @@
      * ms-vscode-remote.remote-ssh
      * ms-vscode-remote.remote-ssh-edit
      * ms-vscode.vs-keybindings
+     * sadesyllas.vscode-workspace-switcher
      * throvn.nand2tetris
-     * tomsaunders.vscode-workspace-explorer
      *
      * Remote extensions.
      *
@@ -32,8 +32,10 @@
         "YellowGreen",
         "GoldenRod",
     ],
-    // tomsaunders.vscode-workspace-explorer.
-    "workspaceExplorer.workspaceStorageDirectory": "vscWorkspace",
+    // sadesyllas.vscode-workspace-switcher
+    "vscodeWorkspaceSwitcher.paths": [
+        "~/vscWorkspace",
+    ],
     // =========================================================================
     // Language Settings
     // =========================================================================
@@ -90,6 +92,7 @@
     "workbench.editor.tabCloseButton": "off",
     "workbench.editor.focusRecentEditorAfterClose": false,
     "workbench.editor.openPositioning": "last",
+    "workbench.editor.untitled.labelFormat": "name",
     // "workbench.editor.limit.enabled": true,
     // "workbench.editor.limit.value": 6,
     // Extension.

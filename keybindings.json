@@ -292,5 +292,25 @@
         "key": "ctrl+up",
         "command": "-selectPrevSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+k shift+w",
+        "command": "-vscodeWorkspaceSwitcher.saveWorkspace"
+    },
+    {
+        "key": "ctrl+k w",
+        "command": "-vscodeWorkspaceSwitcher.switchWorkspace"
+    },
+    {
+        "key": "ctrl+k ctrl+w",
+        "command": "-vscodeWorkspaceSwitcher.switchWorkspaceNewWindow"
+    },
+    {
+        "key": "ctrl+k f",
+        "command": "-workbench.action.closeFolder"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "search.action.openNewEditor"
     }
 ]
