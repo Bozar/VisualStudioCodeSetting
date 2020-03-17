@@ -316,5 +316,24 @@
     {
         "key": "ctrl+k backspace",
         "command": "notifications.clearAll"
+    },
+    {
+        "key": "ctrl+k c",
+        "command": "-workbench.files.action.compareWithClipboard"
+    },
+    {
+        "key": "ctrl+k ctrl+shift+c",
+        "command": "-copyRelativeFilePath",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "ctrl+k c",
+        "command": "editor.action.transformToUppercase",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k shift+c",
+        "command": "editor.action.transformToLowercase",
+        "when": "textInputFocus && !editorReadonly"
     }
 ]
