@@ -242,38 +242,6 @@
         "when": "inKeybindings && keybindingFocus"
     },
     {
-        "key": "ctrl+k ctrl+up",
-        "command": "workbench.action.moveActiveEditorGroupUp"
-    },
-    {
-        "key": "ctrl+k up",
-        "command": "-workbench.action.moveActiveEditorGroupUp"
-    },
-    {
-        "key": "ctrl+k up",
-        "command": "workbench.action.focusAboveGroup"
-    },
-    {
-        "key": "ctrl+k ctrl+up",
-        "command": "-workbench.action.focusAboveGroup"
-    },
-    {
-        "key": "ctrl+k ctrl+down",
-        "command": "workbench.action.moveActiveEditorGroupDown"
-    },
-    {
-        "key": "ctrl+k down",
-        "command": "-workbench.action.moveActiveEditorGroupDown"
-    },
-    {
-        "key": "ctrl+k down",
-        "command": "workbench.action.focusBelowGroup"
-    },
-    {
-        "key": "ctrl+k ctrl+down",
-        "command": "-workbench.action.focusBelowGroup"
-    },
-    {
         "key": "ctrl+n",
         "command": "selectNextSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
