@@ -116,6 +116,7 @@
     "git.branchWhitespaceChar": "_",
     "git.enableSmartCommit": true,
     "git.fetchOnPull": true,
+    "git.inputValidationSubjectLength": null,
     // Icon.
     "workbench.iconTheme": null,
     "workbench.editor.showIcons": false,
