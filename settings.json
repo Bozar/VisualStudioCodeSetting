@@ -37,6 +37,10 @@
     "vscodeWorkspaceSwitcher.paths": [
         "~/vscWorkspace",
     ],
+    // tabnine.tabnine-vscode
+    "tabnine.disable_file_regex": [
+        "[.]md$",
+    ],
     // =========================================================================
     // Language Settings
     // =========================================================================
