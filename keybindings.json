@@ -114,7 +114,7 @@
         "command": "-workbench.action.openGlobalKeybindings"
     },
     {
-        "key": "ctrl+m k",
+        "key": "ctrl+/",
         "command": "bookmarks.toggle",
         "when": "editorTextFocus"
     },
@@ -303,5 +303,20 @@
         "key": "ctrl+k shift+c",
         "command": "editor.action.transformToLowercase",
         "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "-toggleExplainMode",
+        "when": "suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+/",
+        "command": "-editor.foldAllBlockComments",
+        "when": "editorTextFocus && foldingEnabled"
     }
 ]
