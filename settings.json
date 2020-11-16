@@ -33,6 +33,9 @@
         "YellowGreen",
         "GoldenRod",
     ],
+    // donjayamanne.githistory
+    "gitHistory.showEditorTitleMenuBarIcons": false,
+    "gitHistory.showFileHistorySplit": false,
     // sadesyllas.vscode-workspace-switcher
     "vscodeWorkspaceSwitcher.paths": [
         "~/vscWorkspace",
@@ -141,4 +144,6 @@
     "window.openFoldersInNewWindow": "off",
     "window.restoreWindows": "one",
     "window.newWindowDimensions": "inherit",
+    "tabnine.experimentalAutoImports": true,
+    "diffEditor.ignoreTrimWhitespace": false,
 }
