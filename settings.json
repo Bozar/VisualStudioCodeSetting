@@ -14,7 +14,6 @@
      * ms-vscode-remote.remote-ssh-edit
      * ms-vscode.vs-keybindings
      * sadesyllas.vscode-workspace-switcher
-     * tabnine.tabnine-vscode
      * throvn.nand2tetris
      *
      * Remote extensions.
@@ -39,10 +38,6 @@
     // sadesyllas.vscode-workspace-switcher
     "vscodeWorkspaceSwitcher.paths": [
         "~/vscWorkspace",
-    ],
-    // tabnine.tabnine-vscode
-    "tabnine.disable_file_regex": [
-        "[.]md$",
     ],
     // =========================================================================
     // Language Settings
@@ -98,6 +93,8 @@
     // "editor.scrollBeyondLastLine": false,
     "files.trimTrailingWhitespace": true,
     "editor.copyWithSyntaxHighlighting": false,
+    // Editor: diff.
+    "diffEditor.ignoreTrimWhitespace": false,
     // Editor: header.
     "breadcrumbs.filePath": "last",
     "breadcrumbs.symbolSortOrder": "name",
@@ -144,6 +141,4 @@
     "window.openFoldersInNewWindow": "off",
     "window.restoreWindows": "one",
     "window.newWindowDimensions": "inherit",
-    "tabnine.experimentalAutoImports": true,
-    "diffEditor.ignoreTrimWhitespace": false,
 }
