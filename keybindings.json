@@ -318,5 +318,14 @@
         "key": "ctrl+k ctrl+/",
         "command": "-editor.foldAllBlockComments",
         "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "workbench.action.output.toggleOutput"
+    },
+    {
+        "key": "ctrl+alt+o",
+        "command": "outline.focus",
+        "when": "editorTextFocus"
     }
 ]
