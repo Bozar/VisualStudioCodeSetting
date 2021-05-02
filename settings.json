@@ -52,6 +52,11 @@
         "editor.occurrencesHighlight": false,
         "files.insertFinalNewline": true,
     },
+    // Plain text.
+    "[plaintext]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.occurrencesHighlight": false,
+    },
     // Python.
     /**
      * https://github.com/MicrosoftDocs/intellicode/issues/69
@@ -68,8 +73,8 @@
     "workbench.colorTheme": "Visual Studio Dark",
     "editor.tokenColorCustomizations": {
         "[Visual Studio Dark]": {
-            "strings": "#b5ce9f",
-            "numbers": "#ce9178",
+            "strings": "#B5CE9F",
+            "numbers": "#CE9178",
         }
     },
     "workbench.colorCustomizations": {
